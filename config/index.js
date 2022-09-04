@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "8c2c3bc4433d47d1426b0acc5e35421e",
 
     // 模板消息id
-    TEMPLATE_ID: "ntB0OkEEbOtOOkvTIm_uEBJjaxgCLw2s8dGiVfyBiEU",
+    TEMPLATE_ID: "RXVTWh-UAvJho2paAle-eSkAzCPZJmqI2BksNgUqBvI",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "oOE4j6VsE3K4AePnkbmPtGNB9THk",
@@ -51,8 +51,8 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "宝宝", "year": "2005", "date": "01-10"},
-      {"type": "节日", "name": "相遇一年", "year": "2022", "date": "02-24"},
+      {"type": "生日", "name": "宝宝", "year": "2005", "date": "01-09"},
+      {"type": "节日", "name": "相遇一年", "year": "2022", "date": "02-23"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -62,9 +62,9 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2005-01-10",
+    LOVE_DATE: "2005-01-09",
     // 结婚纪念日
-    MARRY_DATE: "2022-02-24",
+    MARRY_DATE: "2022-02-23",
 
 
     /** 每日一言 */
