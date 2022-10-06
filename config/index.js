@@ -4,16 +4,16 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "wxbf21bb14477e5f3c",
+    APP_ID: "wx8fc582d3d59c366b",
 
     // 公众号APP_SECRET
-    APP_SECRET: "8c2c3bc4433d47d1426b0acc5e35421e",
+    APP_SECRET: "f36f39bb2fb3080732759c148839c147",
 
     // 模板消息id
-    TEMPLATE_ID: "Q8_AlfCuGwk0cDfIYYBRRTxZCd2ylcvt7ctOpfvITN0",
+    TEMPLATE_ID: "eNQb5Nqt-2x1GOJjQIOCskAgHzA6g3jtQ3LtG50FSSU",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "oOE4j6VsE3K4AePnkbmPtGNB9THk",
+    CALLBACK_TEMPLATE_ID: "onQkU51yN4xZgAp_AM7CecxtlnMI",
 
     // 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
     // [{
@@ -25,12 +25,12 @@ export const config = {
     //   id: "wxafasdasdd-zxfvsdfd"
     // }]
     USERS: [
-      {name: '我', id: "oOE4j6VsE3K4AePnkbmPtGNB9THk"}, 
-      {name: '帆帆', id: "oOE4j6UQ2YTYb0nY2HWUHsveodtw"},
+      {name: '我', id: "onQkU51yN4xZgAp_AM7CecxtlnMI"}, 
+      {name: '晓晓', id: "onQkU51yN4xZgAp_AM7CecxtlnMI"},
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "oOE4j6VsE3K4AePnkbmPtGNB9THk"}, 
+      {name: '自己',id: "onQkU51yN4xZgAp_AM7CecxtlnMI"}, 
     ],
      
     /**
@@ -40,9 +40,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "河南",
+    PROVINCE: "浙江",
     // 所在城市
-    CITY: "安阳",
+    CITY: "嘉兴",
 
     /** 重要节日相关 */
 
@@ -51,8 +51,8 @@ export const config = {
     // 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
     // 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
     FESTIVALS: [
-      {"type": "生日", "name": "宝宝", "year": "2005", "date": "01-09"},
-      {"type": "节日", "name": "相遇一年", "year": "2022", "date": "02-23"},
+      {"type": "生日", "name": "宝贝", "year": "2003", "date": "08-28"},
+      {"type": "节日", "name": "相遇一年", "year": "2022", "date": "09-30"},
     ],
     // 限制重要节日的展示条目, 需要填写数字; 
     // 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
@@ -62,9 +62,9 @@ export const config = {
     /** 日期相关 */
 
     // 在一起的日子，格式同上
-    LOVE_DATE: "2005-01-09",
+    LOVE_DATE: "2003-08-28",
     // 结婚纪念日
-    MARRY_DATE: "2022-02-23",
+    MARRY_DATE: "2022-09-30",
 
 
     /** 每日一言 */
